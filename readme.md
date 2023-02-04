@@ -5,7 +5,7 @@
 <li><a href="#intro">Introduction</a></li>
 <li><a href="#Preprocessing">Data Preprocessing</a></li>
 <li><a href="#eda">Exploratory Data Analysis</a></li>
-<li><a href="#conclusions">Conclusion</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
 </ul>
 
 <a id='intro'></a>
@@ -21,7 +21,8 @@ The final two columns ending with “_adj” show the budget and revenue of the 
 
 - **note:** _adj id used rather than actual value due to the change of the vlaue of the currancy through the years. this change in value is significant since the data available goes back to 1960
 
-
+<a id='Preprocessing'></a>
+## data Preprocessing
 ### inspecting the data:
 
 the movie dataset contains: id columns unique to each movie, columns providing financial information like revenue, columns that provide rating features like popularity, and other columns include cast, production companies, and director.
@@ -60,8 +61,7 @@ the movie dataset contains: id columns unique to each movie, columns providing f
 - yearly high profits are linked to the most popular movie of the year as almost all above avrage popularity movies before 2000 have above avrage profits 
 - the dip in profit in 2010 might be correlated to the 2008 financial crisis
 
-### 8)  investigating correlation
-
+<a id='conclusion'></a>
 ### _Conclusion_:
 
 the dataset contains alot of valuble data wich can lead to many finding with respect to the movie industry. however, there is some major limitation especially when working on the financial aspect; most of the budget and revenue data are set to zeros. these zeros affect the correlation results, thats why it was important to drop these values. further more alot of null are present in the production companies and cast datasets that needed to be droped to find the top actors like Robert de niro. action and adventure genres are tied as the most popular movie genres bieng the geres of the most popular movie of the year for more than 30 years. the distrbution of the above abarage most popular movie rating and above avrage revenue over the years reinforce the positive correletion between the revenue and the popularity of a movie 
